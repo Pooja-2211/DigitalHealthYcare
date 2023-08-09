@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digital_healthycare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Digital_HealthYcare">
+        <activity android:name=".doctor_manage_Patient"></activity>
+        <activity android:name=".canteen_food_detail" />
+        <activity android:name=".canteen_manage_order" />
+        <activity android:name=".Co_nurse_detail" />
+        <activity android:name=".Nurse_main" />
+        <activity android:name=".Doctor_main" />
+        <activity
+            android:name=".Patient_Medicine_detail"
+            android:label="@string/title_activity_patient__medicine_detail"
+            android:theme="@style/Theme.Digital_HealthYcare.NoActionBar" />
+        <activity
+            android:name=".Patient_Food_detail"
+            android:label="@string/title_activity_patient__food_detail"
+            android:theme="@style/Theme.Digital_HealthYcare.NoActionBar" />
+        <activity android:name=".canteen_profile" />
+        <activity android:name=".chemist_profile" />
+        <activity android:name=".Patient_Hospital_detail" />
+        <activity android:name=".Admin_hospital_detail" />
+        <activity android:name=".Admin_addHospital" />
+        <activity android:name=".Admin_manage_hospital" />
+        <activity android:name=".Admin_Profile" />
+        <activity android:name=".Hospital_detail" />
+        <activity android:name=".App_mainactivity" />
+        <activity android:name=".Co_appointment_detail" />
+        <activity android:name=".MedicineDetail" />
+        <activity android:name=".Patient_Medicine" />
+        <activity android:name=".Patient_Food" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".Co_doc_detail" />
+        <activity android:name=".Co_manage_nurse" />
+        <activity android:name=".Co_manage_Doc" />
+        <activity android:name=".Co_complaint_detail" />
+        <activity android:name=".Co_manage_complaint" />
+        <activity android:name=".Co_update_user" />
+        <activity android:name=".Co_user_detail" />
+        <activity android:name=".Patient_Complaint" />
+        <activity android:name=".signin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".co_add_doctor" />
+        <activity android:name=".co_manage_doc_nurse" />
+        <activity android:name=".co_AddUser" />
+        <activity android:name=".Co_manage_appointment" />
+        <activity android:name=".Co_manage_Patient" />
+        <activity android:name=".Co_Profile" />
+        <activity android:name=".Patient_Profile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

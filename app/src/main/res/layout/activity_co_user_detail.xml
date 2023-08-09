@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Co_user_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/patient_name"
+                android:layout_width="252dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:gravity="center"
+                android:text="Patient Name"
+                android:textColor="#009688"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/patient_email"
+                android:layout_width="219dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Patient Email"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/patient_name" />
+
+            <TextView
+                android:id="@+id/patient_mobile"
+                android:layout_width="219dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Patient Mobile"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/patient_email" />
+
+            <TextView
+                android:id="@+id/patient_dob"
+                android:layout_width="219dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Patient DOB"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/patient_mobile" />
+
+            <TextView
+                android:id="@+id/patient_date_Entry"
+                android:layout_width="219dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Patient Date Of Entry"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/patient_dob" />
+
+            <TextView
+                android:id="@+id/patient_room"
+                android:layout_width="219dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Patient Room"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/patient_date_Entry" />
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="8dp"
+                android:text="Update"
+                app:backgroundTint="#009688"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/patient_room" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:text="Delete"
+                app:backgroundTint="#009688"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/update"
+                app:layout_constraintTop_toBottomOf="@+id/patient_room" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
